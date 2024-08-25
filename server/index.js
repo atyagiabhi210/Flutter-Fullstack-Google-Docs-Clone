@@ -7,7 +7,9 @@ const Document = require("./models/document_model");
 
 const cors = require("cors");
 const documentRouter = require("./routes/document");
-const PORT = process.env.PORT | 3001;
+const PORT = process.env.PORT | 12217;
+//12217
+// 3001
 
 const app = express();
 var server = http.createServer(app);
